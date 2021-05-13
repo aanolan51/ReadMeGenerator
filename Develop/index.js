@@ -15,16 +15,11 @@ const questions =[
         {type: "input", message: "What are your installation instructions?", name:"installation" },
         {type: "input", message: "What are your usage guidelines?", name:"usage" },
         {type: "list", message: "What license are you using?", name:"license", 
-        choices: ["apache-2.0", "artistic-2.0", "Boost Software License 1.0", "bsd-3-clause", "bsd-3-clause-clear", "Creative Commons",
-         "Creative Commons Attribution 4.0", "ecl-2.0", "epl-2.0", "eupl-1.1", "agpl-3.0","gpl-3.0", "lgpl-3.0", "ISC", 
-         "lppl-1.3c","Microsoft Public License", "MIT", "Mozilla Public License 2.0", "PostgreSQL", "ofl-1.1", "NCSA", "Unlicense", "zLib "] },
+        choices: ["apache-2.0", "artistic-2.0", "bsd-3-clause", "bsd-3-clause-clear", "ecl-2.0", "epl-2.0", "eupl-1.1", 
+        "agpl-3.0","gpl-3.0", "lgpl-3.0", "ISC", "lppl-1.3c","MIT", "PostgreSQL", "NCSA", "Unlicense", "zLib "] },
         {type: "input", message: "What are your contributing guidelines?", name:"contributions" },
         {type: "input", message: "What credits do you have?", name:"credits" },
 ];
-   
-    
-
-
 
 
 // axios.get('https://api.github.com/users/${githubUser}')
@@ -34,24 +29,17 @@ const questions =[
 //   });
 
 
-   
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    console.log("write file function");
-    fs.writeFileAsync('ExampleREADME.md');    
-};
-
-
-// TODO: Create a function to initialize app
-//Create a async function in order to wait for user input. Store user input as a variable to be used in markdown generator.s
+//Create a async function in order to wait for user input. Store user input as a variable to be used in markdown generator.
+//
 async function init() {
     try{
         const answers = await inquirer.prompt(questions);
-        console.log(answers);
+        // console.log(answers);
+        //Pass in user answers to the generate markdown javascript:
         let generate = generator(answers);
-        console.log(generate);
+        
+        //Write the README.md file using the generate data and error catching.
         fs.writeFile('ExampleREADME.md', generate, err => {
             if (err) {
               console.error(err)
@@ -61,7 +49,6 @@ async function init() {
     } catch(error){
         console.log(error);
     }
-    
 };
 
 // Function call to initialize app

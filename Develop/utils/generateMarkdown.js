@@ -28,6 +28,7 @@ function generateMarkdown(data) {
 
   //Create the document formatting:
   return `
+  
   <h1 align=center>${data.title}</h1>
   ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
 
@@ -35,6 +36,11 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
+
+  ## Contact
+  Please visit my GitHub profile <br>
+  https://github.com/${data.githubUser} <br><br>
+  Email me at: ${data.email}
 
   
 
