@@ -3,6 +3,10 @@
 function renderLicenseBadge(response) {
   return `![badge](https://img.shields.io/badge/License-${response.license}-blue)<br />
   `;
+  function strReplace(){
+    var myStr = '${response.license}';
+    var newStr = myStr.replace(/-/g, "%");
+  } 
 };
 
 
@@ -16,11 +20,19 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  var myStr = `${data.license}`;
+  console.log(myStr);
+  var newStr = myStr.replace(/-/g, "%");
+  console.log(newStr);
   return `
   <h1 align=center>${data.title}</h1>
-  ![badge](https://img.shields.io/badge/license-${data.license}-blue)<br />
+  ![badge](https://img.shields.io/badge/license-${newStr}-blue)<br />
 
   ## Description
+  ${data.description}
+
+  ## Table of Contents
+
   
 
 `;
