@@ -1,17 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(response) {
-  return `![badge](https://img.shields.io/badge/License-${response.license}-blue)<br />
-  `;
-  function strReplace(){
-    var myStr = '${response.license}';
-    var newStr = myStr.replace(/-/g, "%");
-  } 
-};
-
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 //Use switch to test individual cases:
 function renderLicenseLink(license) {
   let link;
@@ -84,9 +70,9 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}<br>
+  This application is licensed under the ${data.license} license. Please click the link to read more about the license!<br>
   ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
-  [License](${renderLicenseLink(data.license)})
+  [License Information](${renderLicenseLink(data.license)})
 
   ## Testing
   ${data.tests}
