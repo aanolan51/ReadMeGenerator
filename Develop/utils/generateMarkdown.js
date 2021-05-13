@@ -16,7 +16,7 @@ function renderLicenseLink(license) {
       link  = "bsd-3-clause-clear";
       break;
     case "ecl-2.0":
-      path = "ecl-2.0";
+      link = "ecl-2.0";
       break;
     case "agpl-3.0":
       link  = "agpl-3.0";
@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   return `
   
   <h1 align=center>${data.title}</h1>
-  ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
+  ## ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
 
   ## Description
   ${data.description}
