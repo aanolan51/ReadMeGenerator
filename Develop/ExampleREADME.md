@@ -1,7 +1,8 @@
 
   
-  <h1 align=center></h1>
-  ## ![badge](https://img.shields.io/badge/license-bsd%203%20clause%20clear-blue?style=flat-square)<br>
+  <h1 align=center></h1><br>
+  
+  ![badge](https://img.shields.io/badge/license-bsd%203%20clause-blue?style=flat-square)<br>
 
   ## Description
   
@@ -22,9 +23,9 @@
   
 
   ## License
-  This application is licensed under the bsd-3-clause-clear license. Please click the link to read more about the license!<br>
-  ![badge](https://img.shields.io/badge/license-bsd%203%20clause%20clear-blue?style=flat-square)<br>
-  [License Information](https://choosealicense.com/licenses/bsd-3-clause-clear/)
+  This application is licensed under the bsd-3-clause license. Please click the link to read more about the license!<br>
+  ![badge](https://img.shields.io/badge/license-bsd%203%20clause-blue?style=flat-square)<br>
+  [License Information](https://choosealicense.com/licenses/bsd-3-clause/)
 
   ## Testing
   
