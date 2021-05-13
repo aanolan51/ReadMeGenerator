@@ -7,8 +7,7 @@ const axios = require("axios");
 //Create Table of Contents from inputs
 //Create the for questions section based on user input from github username and email.
 //Create an array of questions for user input
-inquirer
-    .prompt([
+const questions =[
         {type: "input", message: "What is your github username?", name:"githubUser" },
         {type: "input", message: "What is your github email address?", name:"email" },
         {type: "input", message: "What is your project title?", name:"title" },
@@ -21,10 +20,9 @@ inquirer
          "lppl-1.3c","Microsoft Public License", "MIT", "Mozilla Public License 2.0", "PostgreSQL", "ofl-1.1", "NCSA", "Unlicense", "zLib "] },
         {type: "input", message: "What are your contributing guidelines?", name:"contributions" },
         {type: "input", message: "What credits do you have?", name:"credits" },
-    ])
-    .then(function(answer){
-        console.log(answer);
-    });
+];
+   
+    
 
 
 
@@ -40,12 +38,31 @@ inquirer
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    console.log("write file function");
+    fs.writeFileAsync('ExampleREADME.md');    
+};
+
 
 // TODO: Create a function to initialize app
-function init() {
+//Create a async function in order to wait for user input. Store user input as a variable to be used in markdown generator.s
+async function init() {
+    try{
+        const answers = await inquirer.prompt(questions);
+        console.log(answers);
+        let generate = generator(answers);
+        console.log(generate);
+        fs.writeFile('ExampleREADME.md', generate, err => {
+            if (err) {
+              console.error(err)
+              return
+            }
+        });
+    } catch(error){
+        console.log(error);
+    }
     
 };
 
 // Function call to initialize app
-//init();
+init();
