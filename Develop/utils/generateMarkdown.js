@@ -22,7 +22,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   var myStr = `${data.license}`;
   console.log(myStr);
-  var newStr = myStr.replace(/-/g, "%");
+  var newStr = myStr.replace(/-/g, "%20");
   console.log(newStr);
   return `
   <h1 align=center>${data.title}</h1>
