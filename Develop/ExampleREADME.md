@@ -1,10 +1,10 @@
 
   
-  <h1 align=center>asdfasdflasdjfliasfasdf lasdflkadsflkadklj</h1>
-  ![badge](https://img.shields.io/badge/license-artistic%202.0-blue?style=flat-square)<br>
+  <h1 align=center>asdasdfsdaf</h1>
+  ![badge](https://img.shields.io/badge/license-bsd%203%20clause%20clear-blue?style=flat-square)<br>
 
   ## Description
-  asdlkfjlasdfjdlkkskjlsaklajadlkf
+  adsasfsadfasdf
 
   ## Table of Contents
   - [Description](#description)
@@ -12,27 +12,29 @@
   - [Usage](#usage)
   - [License](#license)
   - [Testing](#testing)
-  - [Contributors](#contributors)  
+  - [Contributions](#contributions)  
   - [Questions and Contact](#questions-and-contact)
 
   ## Installation
-  asdlfkjasdflkjadfljd
+  adsfasdasdfasdf
 
   ## Usage
-  khasdkjfkjhadkadfkhd
+  asdasdfasdfasdf
 
   ## License
-  artistic-2.0
+  bsd-3-clause-clear<br>
+  ![badge](https://img.shields.io/badge/license-bsd%203%20clause%20clear-blue?style=flat-square)<br>
+  [License](https://choosealicense.com/licenses/bsd-3-clause-clear/)
 
   ## Testing
-  kjahsdfhdasfladsf
+  adsfasdfasdf
   
-  ## Contributors
-  asdljfsakk
+  ## Contributions
+  asdfasdfsadf
 
   ## Questions and Contact
-  kjasdfjdaskjf<br><br>
+  adsfasdfasf<br><br>
   Please visit my GitHub profile <br>
-  https://github.com/aanolan51 <br><br>
+  https://github.com/nolan <br><br>
   Feel free to drop me a line! <br> asdfasdf
 

@@ -15,7 +15,7 @@ const questions =[
         {type: "input", message: "What are your usage guidelines?", name:"usage" },
         {type: "list", message: "What license are you using?", name:"license", 
         choices: ["apache-2.0", "artistic-2.0", "bsd-3-clause", "bsd-3-clause-clear", "ecl-2.0", "epl-2.0", "eupl-1.1", 
-        "agpl-3.0","gpl-3.0", "lgpl-3.0", "ISC", "lppl-1.3c","MIT", "PostgreSQL", "NCSA", "Unlicense", "zLib "] },
+        "agpl-3.0","gpl-3.0", "lgpl-3.0", "ISC","MIT", "PostgreSQL", "NCSA", "Unlicense", "zLib "] },
         {type: "input", message: "What are your contributing guidelines?", name:"contributions" },
         {type: "input", message: "What tests do you have?", name:"tests" },
         {type: "input", message: "What needs to be done if there is an issue?", name:"questions" },

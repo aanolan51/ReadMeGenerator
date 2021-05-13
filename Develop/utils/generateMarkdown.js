@@ -12,11 +12,44 @@ function renderLicenseBadge(response) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+//Use switch to test individual cases:
+function renderLicenseLink(license) {
+  let link;
+  
+  switch (license) {
+    case "apache-2.0":
+      link = "apache-2.0";
+      break;
+    case "artistic-2.0":
+      link = "artistic-2.0";
+      break;
+    case "bsd-3-clause":
+      link  = "bsd-3-clause";
+      break;
+    case "bsd-3-clause-clear":
+      link  = "bsd-3-clause-clear";
+      break;
+    case "ecl-2.0":
+      path = "ecl-2.0";
+      break;
+    case "agpl-3.0":
+      link  = "agpl-3.0";
+      break;
+    case "gpl-3.0":
+      link  = "gpl-3.0";
+      break;
+    case "MIT":
+      link  = "mit";
+      break;
+    case "NCSA":
+      link  = "ncsa";
+      break;
+    case "Unlicense":
+      link  = "unlicense";
+      break;
+  }
+  return `https://choosealicense.com/licenses/${link}/`;
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -41,7 +74,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#license)
   - [Testing](#testing)
-  - [Contributors](#contributors)  
+  - [Contributions](#contributions)  
   - [Questions and Contact](#questions-and-contact)
 
   ## Installation
@@ -51,12 +84,14 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${data.license}<br>
+  ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
+  [License](${renderLicenseLink(data.license)})
 
   ## Testing
   ${data.tests}
   
-  ## Contributors
+  ## Contributions
   ${data.contributions}
 
   ## Questions and Contact
