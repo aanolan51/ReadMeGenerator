@@ -1,8 +1,8 @@
 
   
   <h1 align=center></h1><br>
-  
-  ![badge](https://img.shields.io/badge/license-bsd%203%20clause-blue?style=flat-square)<br>
+
+  ![badge](https://img.shields.io/badge/license-apache%202.0-blue?style=flat-square)<br>
 
   ## Description
   
@@ -23,9 +23,9 @@
   
 
   ## License
-  This application is licensed under the bsd-3-clause license. Please click the link to read more about the license!<br>
-  ![badge](https://img.shields.io/badge/license-bsd%203%20clause-blue?style=flat-square)<br>
-  [License Information](https://choosealicense.com/licenses/bsd-3-clause/)
+  ![badge](https://img.shields.io/badge/license-apache%202.0-blue?style=flat-square)<br>
+  This application is licensed under the apache-2.0 license. Please click the link to read more about the license!<br>
+  [License Information](https://choosealicense.com/licenses/apache-2.0/)
 
   ## Testing
   

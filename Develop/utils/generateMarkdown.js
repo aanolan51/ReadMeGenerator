@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   return `
   
   <h1 align=center>${data.title}</h1><br>
-  
+
   ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
 
   ## Description
@@ -71,8 +71,8 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  This application is licensed under the ${data.license} license. Please click the link to read more about the license!<br>
   ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
+  This application is licensed under the ${data.license} license. Please click the link to read more about the license!<br>
   [License Information](${renderLicenseLink(data.license)})
 
   ## Testing
