@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   console.log(newStr);
   return `
   <h1 align=center>${data.title}</h1>
-  ![badge]("https://img.shields.io/badge/license-${newStr}-blue")<br />
+  ![badge](https://img.shields.io/badge/license-${newStr}-blue)<br>
 
   ## Description
   ${data.description}
