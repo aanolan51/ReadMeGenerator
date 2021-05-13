@@ -7,3 +7,4 @@
 2. https://flaviocopes.com/node-axios/
 3. https://shields.io/category/license
 4. https://www.php.net/manual/en/control-structures.switch.php
+5. https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#github-custom-emoji
