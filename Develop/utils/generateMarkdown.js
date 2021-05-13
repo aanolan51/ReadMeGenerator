@@ -40,9 +40,9 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Testing](#tests)
-  - [Contributors](#contributions)  
-  - [Questions](#questions)
+  - [Testing](#testing)
+  - [Contributors](#contributors)  
+  - [Questions and Contact](#questions-and-contact)
 
   ## Installation
   ${data.installation}
