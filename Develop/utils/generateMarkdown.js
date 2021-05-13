@@ -65,9 +65,11 @@ function generateMarkdown(data) {
   - [Questions and Contact](#questions-and-contact)
 
   ## Installation
+  :toolbox:<br>
   ${data.installation}
 
   ## Usage
+  :books:<br>
   ${data.usage}
 
   ## License
@@ -79,13 +81,15 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Contributions
+  :busts_in_silhouette:<br>
   ${data.contributions}
 
   ## Questions and Contact
+  :grey_question::grey_question:<br>
   ${data.questions}<br><br>
   Please visit my GitHub profile <br>
-  https://github.com/${data.githubUser} <br><br>
-  Feel free to drop me a line! <br> ${data.email}
+  :octocat: https://github.com/${data.githubUser} <br><br>
+  Feel free to drop me a line! <br> :fountain_pen: ${data.email}
 
 `;
 }

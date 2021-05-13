@@ -17,9 +17,11 @@
   - [Questions and Contact](#questions-and-contact)
 
   ## Installation
+  :toolbox:<br>
   
 
   ## Usage
+  :books:<br>
   
 
   ## License
@@ -31,11 +33,13 @@
   
   
   ## Contributions
+  :busts_in_silhouette:<br>
   
 
   ## Questions and Contact
+  :grey_question::grey_question:<br>
   <br><br>
   Please visit my GitHub profile <br>
-  https://github.com/ <br><br>
-  Feel free to drop me a line! <br> 
+  :octocat: https://github.com/ <br><br>
+  Feel free to drop me a line! <br> :fountain_pen: 
 
