@@ -54,7 +54,8 @@ function generateMarkdown(data) {
 
   //Create the document formatting:
   return titleFinal +  
-  `![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
+  `
+  ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
 
   ## Description
   ${data.description}
