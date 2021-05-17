@@ -13,6 +13,7 @@ For this project I have created a program that can be run in the terminal to gen
   - [Testing](#testing)
   - [Contributions](#contributions)  
   - [Questions and Contact](#questions-and-contact)
+  - [Credits](#credits)
 
 ## Installation
 :toolbox:<br>
