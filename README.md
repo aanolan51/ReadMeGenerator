@@ -48,3 +48,4 @@ Pull requests will not be accepted without prior discussion, thank you.
 1. https://shields.io/category/license
 2. https://www.php.net/manual/en/control-structures.switch.php
 3. https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#github-custom-emoji
+4. https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/

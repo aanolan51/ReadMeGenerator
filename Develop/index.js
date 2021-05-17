@@ -3,11 +3,10 @@ const generator = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-//Create Table of Contents from inputs
-//Create the for questions section based on user input from github username and email.
+
 //Create an array of questions for user input
 const questions =[
-        {type: "input", message: "What is your github username?", name:"githubUser" },
+        {type: "input", message: "What is your github username?", name:"githubUser"},
         {type: "input", message: "What is your github email address?", name:"email" },
         {type: "input", message: "What is your project title?", name:"title" },
         {type: "input", message: "What is your project description?", name:"description" },

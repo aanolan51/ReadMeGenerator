@@ -44,13 +44,17 @@ function generateMarkdown(data) {
   console.log(myStr);
   var newStr = myStr.replace(/-/g, "%20");
   console.log(newStr);
+  //Variables to check if input has been received:
+  let titleInput = `${data.title}`;
+
+  //If statement to check that titleInput is empty:
+  if(titleInput !== ''){
+    var titleFinal = `<h1 align=center>${data.title}</h1><br>`;
+  }else{var titleFinal = '';}
 
   //Create the document formatting:
-  return `
-  
-  <h1 align=center>${data.title}</h1><br>
-
-  ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
+  return titleFinal +  
+  `![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
 
   ## Description
   ${data.description}
