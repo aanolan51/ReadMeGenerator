@@ -31,7 +31,7 @@ async function init() {
         let generate = generator(answers);
         
         //Write the README.md file using the generate data and error catching.
-        fs.writeFile('ExampleREADME.md', generate, err => {
+        fs.writeFile('README.md', generate, err => {
             if (err) {
               console.error(err)
               return

@@ -41,9 +41,9 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
   //Replace - with %20 for the badge URL
   var myStr = `${data.license}`;
-  console.log(myStr);
+  // console.log(myStr);
   var newStr = myStr.replace(/-/g, "%20");
-  console.log(newStr);
+  // console.log(newStr);
   //Variables to check if input has been received:
   let titleInput = `${data.title}`;
 
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   //Create the document formatting:
   return titleFinal +  
   `
-  
+
   ![badge](https://img.shields.io/badge/license-${newStr}-blue?style=flat-square)<br>
 
   ## Description
