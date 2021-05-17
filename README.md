@@ -44,8 +44,6 @@ Pull requests will not be accepted without prior discussion, thank you.
 
 
 ## Credits
-1. https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8
-2. https://flaviocopes.com/node-axios/
-3. https://shields.io/category/license
-4. https://www.php.net/manual/en/control-structures.switch.php
-5. https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#github-custom-emoji
+1. https://shields.io/category/license
+2. https://www.php.net/manual/en/control-structures.switch.php
+3. https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#github-custom-emoji
