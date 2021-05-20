@@ -23,6 +23,8 @@ To run this README generator, you will be using node. First need to open your gi
 :books:<br>
 To use this application, run the program by using the command ***node index.js*** in the terminal. A series of questions will then prompt you for input. Put in as much detail as you need for each question before pressing enter and moving on to the next question. Once all of the questions have been answered, a README.md file will be generated in the folder you have run the program in with all your input formatted into a nice and neat readme. Run the program as many times as you need!
 
+![Gif of the app running](ReadMeGenerator/Develop/readme.gif)
+
 ## License
  ![badge](https://img.shields.io/badge/license-mit-blue?style=flat-square)<br>
   This application is licensed under the MIT license. Please click the link to read more about the license!<br>

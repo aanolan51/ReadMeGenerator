@@ -3,7 +3,7 @@
   ![badge](https://img.shields.io/badge/license-MIT-blue?style=flat-square)<br>
 
   ## Description
-  This is an example of the template that the README generator will produce.
+  This project is to create a readme.md file.
 
   ## Table of Contents
   - [Description](#description)
@@ -16,11 +16,11 @@
 
   ## Installation
   :toolbox:<br>
-  Please initilize using npm init and install inquirer using npm install inquirer
+  Please use npm install inquirer to run this program. 
 
   ## Usage
   :books:<br>
-  You can use this readme generator for future projects to help make the process more efficient.
+  N/A
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-blue?style=flat-square)<br>
@@ -32,11 +32,11 @@
   
   ## Contributions
   :busts_in_silhouette:<br>
-  N/A
+  Please contact me if you would like to contribute.
 
   ## Questions and Contact
   :grey_question::grey_question:<br>
-  Please contact me if there are any issues!<br><br>
+  Please contact me if you have any questions.<br><br>
   Please visit my GitHub profile <br>
   :octocat: https://github.com/aanolan51 <br><br>
   Feel free to drop me a line! <br> :fountain_pen: nolana464@gmail.com
